@@ -81,7 +81,7 @@ function InitialFindings(){
         <div class="container">
             <button type="button" class="btn btn-outline-dark">Press Here</button>
         </div>
-        
+
     </div>);
 }
 export default InitialFindings;
