@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/success-calc/static/css/main.073c9b0a.css",
-    "main.js": "/success-calc/static/js/main.c4fd7054.js",
+    "main.js": "/success-calc/static/js/main.37b77aed.js",
     "static/js/787.ec738bfd.chunk.js": "/success-calc/static/js/787.ec738bfd.chunk.js",
     "static/media/Success_unsuccess.png": "/success-calc/static/media/Success_unsuccess.2ccdc5da5bae1f258c52.png",
     "static/media/unsuccessful_types.png": "/success-calc/static/media/unsuccessful_types.4e2c197e6559416843d2.png",
-    "static/media/Successful_business_types.png": "/success-calc/static/media/Successful_business_types.de86f9e43d2b7a6bafa9.png",
+    "static/media/successful_business_distance_from_times_sq_r100km.png": "/success-calc/static/media/successful_business_distance_from_times_sq_r100km.9c6f814d10c0f5ddb171.png",
+    "static/media/successful_business_types.png": "/success-calc/static/media/successful_business_types.de86f9e43d2b7a6bafa9.png",
+    "static/media/successful_distance_from_station.png": "/success-calc/static/media/successful_distance_from_station.3912fceaf25118cd468e.png",
     "static/media/SampleAverageDuration.png": "/success-calc/static/media/SampleAverageDuration.746e55fa0c8d0da4f3eb.png",
     "index.html": "/success-calc/index.html",
     "main.073c9b0a.css.map": "/success-calc/static/css/main.073c9b0a.css.map",
-    "main.c4fd7054.js.map": "/success-calc/static/js/main.c4fd7054.js.map",
+    "main.37b77aed.js.map": "/success-calc/static/js/main.37b77aed.js.map",
     "787.ec738bfd.chunk.js.map": "/success-calc/static/js/787.ec738bfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.c4fd7054.js"
+    "static/js/main.37b77aed.js"
   ]
 }
