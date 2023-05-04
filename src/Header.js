@@ -1,8 +1,9 @@
 import React from "react";
-
+import NavBar from "./NavBar"
 function Header(){
     return(<div>
-        <h1>Calculate Success of a Business</h1>
+        <NavBar></NavBar>
+        <h1 class="text-center">Calculate Success of a Business</h1>
     </div>)
 }
 
