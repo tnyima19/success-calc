@@ -1,5 +1,5 @@
 import React from "react";
-import confusionMatrix from './ConfusionMatrix.png';
+import confusionMatrix from './ConfustionMatrix.png';
 import businesses from './businesses.png';
 
 function Result(){
@@ -9,17 +9,23 @@ function Result(){
             <div class="col">
         <h3>Random Forest</h3>
         <p>
-            Since there was no linear relationship between "Distance from Times Square" and "Success".
-            Similarly there was no realationship between "Distance from nearest station" and "Success" or "Zip Code" and "Success"
-            I chose Unsupervised model to predict the outcomes of test values. And there were 2 that predicted with 60-70% 
-            accuracy. They were Naïve Bayes and Random Forests, but Random Forest was consistently more accurate than Naive Bayes. 
-            It was able to predict with following confusion matrix. Therefore I chose Random Forest as my model to predict the "Success" 
-            of businesses.
+        As the analysis revealed no linear relationship between "Distance from Times Square"
+         and "Success," nor between "Distance from Nearest Station" or "Zip Code" and "Success,"
+          an unsupervised model was selected to predict the outcomes of test values. Two models,
+           Naïve Bayes and Random Forests, were utilized, both achieving an accuracy rate of 60-70%.
+            However, Random Forest consistently outperformed Naïve Bayes in terms of accuracy.
+             The chosen Random Forest model generated the following confusion matrix, affirming its
+              suitability for predicting the "Success" of businesses. Hence, Random Forest was selected
+               as the preferred model for this prediction task.
         </p>
         <p>
-            Initially I suspected it may be predicting it by chance or assuming most to be successful because of the hight number 
-            of successful business specially in "Tobacco Retail Dealer" type business. However, when 
-            provided with data that had high number of failures, it was still able to successfully predict with over 60% accuracy.
+        Initially, there was a suspicion that the selected model might be making predictions by chance or assuming 
+        a higher success rate due to the significant number of successful businesses, 
+        particularly in the "Tobacco Retail Dealer" category. However, this suspicion was alleviated
+         when the model was tested with data containing a substantial number of failures. Despite the
+          increased presence of failures in the dataset, the Random Forest model consistently demonstrated its capability to predict with over 60% accuracy. 
+        This finding provided further confidence in the reliability and effectiveness of the model's 
+        predictive capabilities.
         </p>
         <p>Accuracy score = 0.682397
         </p>
@@ -40,15 +46,24 @@ function Result(){
 
         <h2> Lasso Regression </h2>
         <p>
-            While rechecking and going through past model I realized that despite having no 
-            direct linear relationship between features such as Distance from Times Square, Distance from nearest Station
-            ,Zip Code. When using all these features together and creting a multidimentional vector. It was succesfully able to 
-            predict Success with similar accuracy, and using multidimentional vector also gave similar results with Linear Regression, 
-            which is higher than Random Forest. Therefore we can say individually features such as Distance from Station,Distance from Times Square, Type of
-            Business, Zip Code do not have Linear realtionship, but all the features together can predict "Success" with higher accuracy than 
-            Random Forest.I say this because the program output [0,1,2,4,5,6] as Relevant Features.
-            These features are "Distance From Times Square", "Distance from Station", "Industry_Laundires", "Industry_Sidewalk Cafe", "Industry_Tobacco Retail Dealer"
-            "Address Borough_brooklyn" respectively. 
+        Upon further review and examination of the past model, 
+        it became apparent that although there is no direct linear
+         relationship between individual features such as Distance 
+         from Times Square, Distance from Nearest Station, and Zip Code,
+          combining all these features into a multidimensional vector proved
+           successful in predicting "Success" with similar accuracy. Furthermore,
+            when using the multidimensional vector, Linear Regression produced even
+             better results than the Random Forest model.
+
+This indicates that while individual features may not exhibit linear relationships,
+ the collective influence of all features together can effectively predict "Success"
+  with higher accuracy. The program output identified the following relevant features:
+   "Distance From Times Square," "Distance from Station," "Industry_Laundries," "Industry_Sidewalk Cafe,"
+    "Industry_Tobacco Retail Dealer," and "Address Borough_brooklyn."
+
+These findings highlight the importance of considering multiple features
+ simultaneously and the potential for improved predictive accuracy when using 
+ a multidimensional approach.
         </p>
         <p>The mean square error: 0.2769423558897243</p>
         <p>Accuracy Score:  0.7230576441102757</p>

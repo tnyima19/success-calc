@@ -22,33 +22,44 @@ function InitialFindings(){
         <div class="row">
         <div class="col">
                 <h3>Assumptions and Impressions</h3>
-                <p> I chose "Distance From Times Square","Distance from nearest station", "Types of Business","Borough","Zip Code".
-                    I chose these feature because of my assumptions about New York City.Times square is usually full of tourists so
-                     I assumed Businesses in Times Square would earn higher revenue because of the high number of tourists in NYC,it is also 
-                     the most accessible place in manhattan because of all the trains that go through Times Square.
-                    Similarly lower "Distance from nearest station" means highly accessible from station for groceries, 
-            food, snacks etc.
-                When I first looked at this map I discovered that there were significantly higher number of businesses
-                in Manhattan compared to Queens, Brooklyn, Staten Island and Bronx. I also noticed high densities of green(succesful businesses)
-                around mid-town, compared to other parts of Manhattan. The density of business higher 
-                around the train stations. Similarly the number of businesses decreased as you go further from mid-town. Similarly Island had the least amount of 
-                businesses compared to other boroughs. This strengthened my bias so I created bar graph of all businesses and distance from Times Square and distance from 
-                nearest station. which gave me this result below.
-             . </p>
+                <p> I selected the following features for analysis: "Distance From Times Square,"
+                     "Distance from Nearest Station," "Types of Business," "Borough," and "Zip Code."
+                      These features were chosen based on my assumptions about New York City. Times Square
+                       is typically crowded with tourists, leading me to assume that businesses in this area
+                        would generate higher revenue due to the large number of tourists in NYC. Additionally,
+                         Times Square is the most accessible location in Manhattan, benefiting from the various
+                          train routes passing through the area.
+
+Likewise, a lower "Distance from Nearest Station" indicates a higher level of accessibility to groceries,
+ food, snacks, and other amenities.
+
+Upon examining a map, I observed a significantly larger number of businesses in Manhattan compared to Queens,
+ Brooklyn, Staten Island, and the Bronx. Furthermore, there were concentrated clusters of successful businesses,
+  represented by higher densities of green markers, primarily located around midtown Manhattan and train stations.
+   As one moves away from midtown, the number of businesses gradually decreases. The borough of Staten Island 
+   had the fewest number of businesses among all the boroughs. These observations further reinforced my initial bias,
+    due to which I created a bar graph illustrating the distribution of businesses based on their distance
+     from Times Square and the nearest train station. The resulting graph is presented below.
+             </p>
             </div>
             <div class="col">
                 <h3>Assumptions</h3>
-                <p>This strengthened my assumption that locations had an impact on the success of a business, because of the relation between 
-                    number of successful businesses was higher closer to the Times Square. This led
-                    me to check if there was linear realtionship between "Distance from Times Square" and "Age" of businesses.
-                    However my assumption was proved to be wrong. There was no linear relationship between Distance from Times Square 
-                    and Age of business as we can see down below. Similarly there was also no linear relation between "Distance from nearest station" and 
-                    "Age of a business". I also checked if there was linear realtionship between zip codes and age of business howeever the
-                    results were same.I had also assumed that the "Type of Business" was either second most important factor. So I also created
-                    visual diagram to check if there was some realtionship between types of business and success of a business. But before that 
-                    I also needed to define success of business. Although I was looking for relationship between Age of business and 
-                    Distance from Times square I also realized that when I make prediction I would be predicting "Age" of business and this 
-                    would have high error. So I needed to define "Success" first.
+                <p>Based on my findings, it further reinforced my initial assumption that the location of a business plays
+ a significant role in its success. This was evident from the higher concentration of successful
+  businesses in proximity to Times Square. As a result, I decided to investigate whether there was a
+   linear relationship between the "Distance from Times Square" and the "Age" of businesses. However,
+    my assumption was proven incorrect, as no linear relationship was observed, as depicted below. Similarly,
+     no linear relationship was found between the "Distance from Nearest Station" and the "Age of a business."
+      Additionally, I explored the potential linear relationship between zip codes and the age of businesses,
+       but the results remained consistent.
+
+I had also initially considered the "Type of Business" as the second most important factor. 
+To examine any potential relationship between the types of businesses and their success,
+ I created a visual diagram. However, before proceeding, it became essential to define what
+  constitutes a "successful" business. Although I initially focused on the relationship between
+   the age of a business and its distance from Times Square, I realized that my prediction would
+    ultimately involve forecasting the "Age" of a business, which could introduce a high degree of error.
+     Therefore, I deemed it necessary to establish a clear definition of "Success" first.
 
                 </p>
             </div>
@@ -69,13 +80,19 @@ function InitialFindings(){
             <div class="row gx-1 gy-5 mt-5">
             <div class="col">
             <h3>Success and Age of business.</h3>
-            <p>Although I didn't have access to profit records, I had access to "License created date" and "License 
-                Expiring Date" which gave me age of a business and it was good measure of success, but access to profits
-                would have enriched the data and increased accuracy.
-                I assumed that higer age of business meant higher success of business but I needed to find out what would be
-                the line between "Successful" and "Unsuccessful" business. So I used mean as an indicator for success of a business. 
-                If a "Age" of business &gt; mean it would be considered "Successful" whereas
-                else the business would be considered "Unsuccessful"
+            <p>Although I lacked access to specific profit records,
+ I was able to utilize the "License Created Date" and "License Expiring Date"
+  as proxies for determining the age of a business. While this measure served as a
+   reasonable approximation of success, incorporating actual profit data would have
+    enhanced the dataset's richness and increased the overall accuracy of the analysis.
+
+Initially, I assumed that a higher age of a business would correlate with a greater 
+level of success. However, it was crucial to establish a clear distinction between "Successful"
+ and "Unsuccessful" businesses. To accomplish this, I employed the mean value as a threshold
+  indicator for business success. Businesses with an "Age" greater than the mean were classified
+   as "Successful," while those falling below the mean were deemed "Unsuccessful."
+
+In addition to this approach, I also created a graph that provided valuable insights into the distribution of business ages. This visualization proved to be a valuable tool for assessing the overall age patterns within the dataset.
             I created also created this graph that provided me a very good sense of age of business and.</p>
             <p>The mean age of Business: 7.68 years </p>
             <p>The median age of Businesses: 5.65 years </p>
@@ -95,21 +112,41 @@ function InitialFindings(){
                 </div>
                 <div class="col">
                     <h2>Relation Between Types of Business and Success of Business.</h2>
-                    <p>Firstly there were many types of businesses they ranged from Laundries, Tow truck, parking lot to Tobacco Retail Dealers. 
-                        Due to many types of businesses I decided to focus on businesses which interested me. This included Laundries, Stoop Line Stand(Groceries),
-                        Tobaccco Retail Dealer, Electronic Cigerrette Dealer,and Sidewalk Cafe. I used created this Visual diagram based on "Distance from Times Square" and "Success"
-                        differentiated the types of Businesses with hues.
+                    <p>Within the dataset, there was a diverse range of businesses, spanning from Laundries,
+                         Tow Trucks, and Parking Lots to Tobacco Retail Dealers. Given the multitude of business
+                          types, I made the decision to concentrate on those that piqued my interest.
+                           This narrowed down my focus to specific categories such as Laundries, Stoop Line Stands
+                            (Groceries), Tobacco Retail Dealers, Electronic Cigarette Dealers, and Sidewalk Cafes.
+
+To gain a comprehensive understanding of the relationship between the 
+"Distance from Times Square" and the "Success" of businesses, I developed a visual diagram.
+ By utilizing different hues to distinguish between the various types of businesses, I aimed
+  to present a clear representation of the data's patterns and insights.
                     </p>
                     <p>
-                        I can infer that most Electronic Ciegarette Dealer are not successful.This is probabily due to recent popularity of 
-                        Electronic Cigerette. Most Electronic Cigerette sellers might be less than 7 years old. Similarly, there are very few Successful Laundries.
-                        According to my research on Facebook listing and read facebook posts on Group discussions on Laundry owners, laundries are purchasedand
-                        sold regularly. Many people use 
-                        Laundries as a way to earn consistent money but later on move on to another business. So the definition of "Success" may not fit for 
-                        laundries.
-                        We can also see very high number of successful Stoop Line Stand(Groceries without alcohol).
-                        We can also see very high number of successful and unsuccesful Tobacco Retail Dealer. During my analysis I idenfied that many
-                        Tobaco Retail Dealers adversed themselves as "Grocerys" or "Foods", so that they can attract higher share of customers.
+                    Based on the visual diagram, several noteworthy observations can be made. 
+                    Firstly, it is evident that a majority of Electronic Cigarette Dealers are not
+                     classified as successful. This trend could be attributed to the recent rise in
+                      popularity of electronic cigarettes. As a result, many of these dealers may be
+                       relatively young, with less than seven years of operation.
+
+Additionally, there are relatively few successful Laundries. Through research conducted on Facebook
+ listings and group discussions among laundry owners, it was discovered that laundries are often bought
+  and sold on a regular basis. Many individuals utilize laundries as a means of generating consistent
+   income but eventually transition to other business ventures. Consequently, the definition of "success"
+    may not align well with the nature of laundries.
+
+On the other hand, there is a notable presence of successful Stoop Line Stands
+ (groceries without alcohol) within the dataset. This suggests that these types of 
+ businesses have achieved a higher level of success.
+
+Furthermore, the visual diagram indicates a significant number of both successful and
+ unsuccessful Tobacco Retail Dealers. During the analysis, it was identified that many 
+ tobacco retail dealers advertise themselves as "groceries" or "food establishments" to 
+ attract a larger customer base.
+
+Overall, these observations highlight distinct patterns and dynamics within specific 
+business categories, shedding light on the varying degrees of success among them.
                     </p>
                 </div>
                 
@@ -119,12 +156,21 @@ function InitialFindings(){
             
                 <div class="col">
                     <h3> Types of Successful and Unsuccessful Business</h3>
-                       <p> From the figure to the right, we can clearly distingush business types and their number.
-                        Stoop line stands are groceries that have outdoor stands. Side walk Cafes are just regular cafe.
-                        Tobacco Retail Dealer has the highest number. However, analyzing the data checking their individual 
-                        business names. I realized that many Tobacco Retail Dealer also sell alcohol or cigerettes and advertise themselves as
-                         Groceries or Food Shops so that they can get greater share of the market. Compared to Stoop Line Stand who only 
-                         focus on selling gorceries.Side walk cafe had the lowest amount.
+                       <p> Referring to the figure on the right, it provides a clear distinction between the different
+ types of businesses and their respective numbers. Stoop Line Stands are characterized as
+  groceries with outdoor stands, while Sidewalk Cafes refer to typical cafes. Notably, there
+   is a significant presence of Tobacco Retail Dealers, surpassing other business types in 
+   terms of quantity.
+
+However, upon further analysis by examining individual business names, an interesting
+ trend emerged. It was discovered that many Tobacco Retail Dealers also engage in the 
+ sale of alcohol or cigarettes, strategically positioning themselves as groceries or food
+  shops to capture a larger market share. This contrasts with Stoop Line Stands, which solely 
+  focus on selling groceries. Lastly, Sidewalk Cafes exhibit the lowest number among the observed business types.
+
+These insights shed light on the diverse strategies employed by businesses to expand their
+ offerings and appeal to a wider customer base, underscoring the distinct characteristics
+  and dynamics within each category.
                          </p>
                         
                        
