@@ -2,7 +2,7 @@ import React from "react";
 import age_business from './SampleAverageDuration.png';
 import success_types from './successful_business_types.png';
 import unsuccess_types from './unsuccessful_types_small.png';
-import success_unsucess_map from './Success_unsuccess.png';
+import success_unsucess_map from './success_unsuccess_map.png';
 import success_distance_from_times_sq from './successful_business_distance_form_times_sq_r50km.png';
 import distance_from_station_and_type from './DistanceFromStation_Success_BusinessType.png';
 import distance_from_times_sq_and_duration from'./Distance_from_times_sq_and_Duration.png';
